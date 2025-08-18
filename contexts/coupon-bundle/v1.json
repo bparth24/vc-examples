@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "@protected": true,
+    "barcode": "https://schema.org/identifier",
+    "name": "https://schema.org/name",
+    "description": "https://schema.org/description",
+    "bundleMatcher": "https://schema.org/url",
+    "image": {
+      "@id": "https://schema.org/image",
+      "@type": "@id"
+    },
+    "CouponBundleCredential": "https://examples.vcplayground.org/contexts/coupon-bundle/vocab#CouponBundleCredential"
+  }
+}
