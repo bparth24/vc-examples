@@ -47,17 +47,12 @@
           "@container": "@list"
         },
         "renderSuite": "https://w3id.org/vc/render-method#renderSuite",
-        "outputPreference": {
-          "@id": "https://w3id.org/vc/render-method#outputPreference",
-          "@context": {
-            "@protected": true,
-            "mode": {
-              "@id": "https://w3id.org/vc/render-method#mode",
-              "@container": "@list"
-            },
-            "mediaType": "https://schema.org/encodingFormat"
-          }
+        "outputPreference": "https://w3id.org/vc/render-method#outputPreference",
+        "mode": {
+          "@id": "https://w3id.org/vc/render-method#mode",
+          "@container": "@list"
         },
+        "mediaType": "https://schema.org/encodingFormat",
         "template": "https://w3id.org/vc/render-method#template"
       }
     },
