@@ -56,7 +56,8 @@
               "@container": "@list"
             },
             "mediaType": "https://schema.org/encodingFormat"
-          },
+          }
+        },
         "template": "https://w3id.org/vc/render-method#template"
       }
     },
