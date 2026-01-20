@@ -44,9 +44,8 @@
         "renderEngine": "https://w3id.org/vc/render-method#renderEngine",
         "renderProperty": {
           "@id": "https://w3id.org/vc/render-method#renderProperty",
-          "@container": "@list"
+          "@container": "@set"
         },
-        "renderSuite": "https://w3id.org/vc/render-method#renderSuite",
         "outputPreference": {
           "@id": "https://w3id.org/vc/render-method#outputPreference",
           "@context": {
@@ -54,9 +53,13 @@
             "id": "@id",
             "mode": {
               "@id": "https://w3id.org/vc/render-method#mode",
-              "@container": "@list"
+              "@container": "@set"
             },
-            "mediaType": "https://schema.org/encodingFormat"
+            "mediaType": "https://schema.org/encodingFormat",
+            "style": {
+              "@id": "https://w3id.org/vc/render-method#style",
+              "@type": "@json"
+            }
           }
         },
         "template": "https://w3id.org/vc/render-method#template"
